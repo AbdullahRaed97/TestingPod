@@ -30,10 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'TestingPods/Sources/**/*'
-  s.platform = {
-  "ios" : "10.0"
-}
+  s.source_files = 'TestingPods/Sources/**/*.swift'
+   s.platform = :ios, '12.0'
   
   # s.resource_bundles = {
   #   'TestingPods' => ['TestingPods/Assets/*.png']
